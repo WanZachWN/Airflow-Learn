@@ -1,0 +1,102 @@
+[2023-06-08T20:17:56.796+0000] {processor.py:157} INFO - Started process (PID=1511) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:17:56.798+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2023-06-08T20:17:56.798+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:17:56.798+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:17:56.803+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:17:56.802+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-06-08T20:17:56.804+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:17:56.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.028 seconds
+[2023-06-08T20:18:27.170+0000] {processor.py:157} INFO - Started process (PID=1528) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:18:27.173+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2023-06-08T20:18:27.174+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:18:27.174+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:18:27.181+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:18:27.179+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-06-08T20:18:27.182+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:18:27.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.038 seconds
+[2023-06-08T20:18:57.560+0000] {processor.py:157} INFO - Started process (PID=1545) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:18:57.562+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2023-06-08T20:18:57.563+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:18:57.563+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:18:57.570+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:18:57.568+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-06-08T20:18:57.571+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:18:57.594+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.039 seconds
+[2023-06-08T20:19:27.927+0000] {processor.py:157} INFO - Started process (PID=1561) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:19:27.930+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2023-06-08T20:19:27.932+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:19:27.931+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:19:27.939+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:19:27.937+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-06-08T20:19:27.939+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:19:27.962+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.039 seconds
+[2023-06-08T20:19:58.295+0000] {processor.py:157} INFO - Started process (PID=1579) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:19:58.297+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2023-06-08T20:19:58.299+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:19:58.299+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:19:58.305+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:19:58.304+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-06-08T20:19:58.306+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:19:58.328+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.038 seconds
+[2023-06-08T20:20:28.617+0000] {processor.py:157} INFO - Started process (PID=1596) to work on /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:20:28.620+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/create_dag_with_python_operator.py for tasks to queue
+[2023-06-08T20:20:28.622+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:20:28.622+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:20:28.629+0000] {logging_mixin.py:149} INFO - [2023-06-08T20:20:28.627+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/create_dag_with_python_operator.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_dag_with_python_operator.py", line 14
+    
+    ^
+SyntaxError: unexpected EOF while parsing
+[2023-06-08T20:20:28.629+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/create_dag_with_python_operator.py
+[2023-06-08T20:20:28.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_dag_with_python_operator.py took 0.035 seconds
