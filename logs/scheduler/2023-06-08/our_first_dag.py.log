@@ -1368,3 +1368,17 @@ SyntaxError: invalid syntax
 [2023-06-08T21:15:20.512+0000] {logging_mixin.py:149} INFO - [2023-06-08T21:15:20.512+0000] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-06-08T21:15:20.526+0000] {logging_mixin.py:149} INFO - [2023-06-08T21:15:20.526+0000] {dag.py:3490} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-05-30T00:00:00+00:00, run_after=2023-05-31T00:00:00+00:00
 [2023-06-08T21:15:20.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.070 seconds
+[2023-06-08T21:15:50.901+0000] {processor.py:157} INFO - Started process (PID=3837) to work on /opt/airflow/dags/our_first_dag.py
+[2023-06-08T21:15:50.902+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/our_first_dag.py for tasks to queue
+[2023-06-08T21:15:50.903+0000] {logging_mixin.py:149} INFO - [2023-06-08T21:15:50.903+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/our_first_dag.py
+[2023-06-08T21:15:50.918+0000] {processor.py:836} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /opt/airflow/dags/our_first_dag.py
+[2023-06-08T21:15:50.942+0000] {logging_mixin.py:149} INFO - [2023-06-08T21:15:50.942+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-08T21:15:50.958+0000] {logging_mixin.py:149} INFO - [2023-06-08T21:15:50.958+0000] {dag.py:3490} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-05-30T00:00:00+00:00, run_after=2023-05-31T00:00:00+00:00
+[2023-06-08T21:15:50.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.071 seconds
+[2023-06-08T21:16:21.297+0000] {processor.py:157} INFO - Started process (PID=3859) to work on /opt/airflow/dags/our_first_dag.py
+[2023-06-08T21:16:21.299+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/our_first_dag.py for tasks to queue
+[2023-06-08T21:16:21.301+0000] {logging_mixin.py:149} INFO - [2023-06-08T21:16:21.301+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/our_first_dag.py
+[2023-06-08T21:16:21.317+0000] {processor.py:836} INFO - DAG(s) dict_keys(['our_first_dag_v5']) retrieved from /opt/airflow/dags/our_first_dag.py
+[2023-06-08T21:16:21.341+0000] {logging_mixin.py:149} INFO - [2023-06-08T21:16:21.340+0000] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-08T21:16:21.355+0000] {logging_mixin.py:149} INFO - [2023-06-08T21:16:21.354+0000] {dag.py:3490} INFO - Setting next_dagrun for our_first_dag_v5 to 2023-05-30T00:00:00+00:00, run_after=2023-05-31T00:00:00+00:00
+[2023-06-08T21:16:21.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/our_first_dag.py took 0.073 seconds
